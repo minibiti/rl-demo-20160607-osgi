@@ -5,7 +5,7 @@ To build this project use (from the top)
 
     mvn clean install
 
-Karaf commands:
+Karaf commands (tested with JBoss Fuse 6.1):
   install -s mvn:com.rl.demos.meetup.jmr.osgi/callee/1.0.0
   install -s mvn:com.rl.demos.meetup.jmr.osgi/caller/1.0.0
   install -s mvn:com.rl.demos.meetup.jmr.osgi/callee/1.0.1
